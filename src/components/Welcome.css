@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+
+.welcome-txt h2{
+    font-family: var(--family1);
+    font-size: var(--font3);
+    animation: 
+    typing 1.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+}
+
+.welcome-txt{
+    font-family: var(--family1);
+    font-size: var(--font1);
+    max-width: 65vh;
+}
+
+.welcome-txt h3:first-of-type {
+    margin-top: 20px;  
+}
+
+h3{
+    word-spacing: 1vh;
+}
+
+.welcome-txt span{
+    font-family: "Inconsolata", monospaceß;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+.var{
+    color: #6f42c1;
+}
+
+.name{
+    color: #d73a49;
+}
+
+.value{
+    color: #028d33;
+}
+
+.welcome{
+    max-height: 100vh;
+    margin: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.about-me{
+    max-width: 55vh;
+    margin-top: 20px;
+}
+
+p{
+    word-wrap: break-word;
+    font-family: var(--family2);
+    font-size: var(--font2);
+    font-weight: 200;
+    font-family: "Inconsolata", monospaceß;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+img{
+    border-radius: 20%;
+    width: 270px;
+    height: 350px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 960px) {
+    .welcome img{
+        display: none;
+    }
+
+    .welcome{
+        display: flex;
+        justify-content: center;
+        flex-wrap:wrap;
+    }
+
+  }

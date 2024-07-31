@@ -1,0 +1,25 @@
+.nav-div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3vh;
+    flex-wrap: wrap;
+  }
+  
+  .nav-div a{
+    margin: 0 4vh 0 4vh;
+    color: var(--color);
+  }
+  
+  .nav-right a {
+    transition: 0.3s;
+    font-size: 20px;
+  }
+  
+  .nav-right a:hover {
+    background-color: var(--nav_hover_background);
+    color: var(--nav_hover_color);
+  }
+  
+  .nav-left{
+    font-size: var(--font2);
+  }
