@@ -17,19 +17,20 @@
     font-family: var(--family1);
     font-size: var(--font3);
     animation: 
-    typing 1.5s steps(40, end),
+    typing 1.6s steps(40, end),
     blink-caret .75s step-end infinite;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid orange; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em;
+    width: fit-content;
 }
 
 .welcome-txt{
     font-family: var(--family1);
     font-size: var(--font1);
-    max-width: 65vh;
+    max-width: 400px;
 }
 
 .welcome-txt h3:first-of-type {
@@ -61,10 +62,9 @@ h3{
 }
 
 .welcome{
-    max-height: 100vh;
-    margin: 20vh;
+    margin: 10% 17%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 
@@ -104,4 +104,20 @@ img{
         flex-wrap:wrap;
     }
 
+
+  }
+
+  @media only screen and (max-width: 600px) {
+    
+    .welcome-txt h2{
+        font-size: var(--font2);
+    }
+
+    .welcome-txt h3{
+        font-size: var(--font1);
+    }
+
+    .welcome-txt p{
+        font-size: var(--font1);
+    }
   }

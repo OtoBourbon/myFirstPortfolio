@@ -53,6 +53,7 @@ function Darktheme() {
         checkedIcon={<FaMoon style={{ color: "#FFF", margin: "4px" }} />}
         uncheckedIcon={<FaSun style={{ color: "#ffffff", margin: "4px" }} />}
         boxShadow="0px 0px 2px 3px #6e6e6e"
+        className="switch"
       />
         </>
     )

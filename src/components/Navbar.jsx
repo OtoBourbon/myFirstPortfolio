@@ -17,7 +17,7 @@ function Navbar() {
             <div className="nav-right">
                 <a href="">about me</a>
                 <a href="">projects</a>
-                <a href="">contect me</a>
+                <a href="">contact me</a>
             </div>
 
        </div>
