@@ -1,0 +1,74 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+    box-sizing: border-box;
+    color: var(--color);
+
+}
+
+.projects h2{
+    font-family: var(--family1);
+    font-size: var(--font4);
+    margin: auto
+}
+
+.projectcard{
+    max-width: 100%;
+    height: fit-content;
+    margin: 0;
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    font-family: var(--family2);
+    box-sizing: border-box;
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.card{
+    height: 45vh;
+    width: 35vh;
+    border: 1px solid black;
+    margin: 0px auto;
+    transition: box-shadow 0.3s ease;
+    border-radius: 5%;
+    box-sizing: border-box;
+
+}
+
+.card:hover{
+    box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 0.157);
+}
+
+.card img{ 
+    object-fit: cover;
+    border-radius: 5% 5% 0 0;
+    height: 80%;
+    width: 100%;
+    margin: 0;
+}
+
+.card h3{
+    font-size: var(--font2);
+}
+
+.card h5{
+    font-size: 12px;
+    font-weight: 200;
+    font-family: monospace;
+}
+
+.h3h5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}

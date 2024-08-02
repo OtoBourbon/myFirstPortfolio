@@ -1,0 +1,13 @@
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+}
+
+.footer h6{
+    color: var(--color);
+    margin: 0 auto;
+}

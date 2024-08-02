@@ -14,7 +14,8 @@
     transition: 0.3s;
     font-size: 20px;
   }
-  
+
+
   .nav-right a:hover {
     background-color: var(--nav_hover_background);
     color: var(--nav_hover_color);

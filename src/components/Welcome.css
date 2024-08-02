@@ -47,6 +47,8 @@ h3{
     font-style: normal;
     font-variation-settings:
     "wdth" 100;
+    box-sizing: border-box;
+
 }
 
 .var{
@@ -65,6 +67,7 @@ h3{
     margin: 10% 17%;
     display: flex;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 
 
@@ -114,10 +117,6 @@ img{
     }
 
     .welcome-txt h3{
-        font-size: var(--font1);
-    }
-
-    .welcome-txt p{
         font-size: var(--font1);
     }
   }

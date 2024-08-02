@@ -15,9 +15,9 @@ function Navbar() {
             </div>
             <Darktheme/>
             <div className="nav-right">
-                <a href="">about me</a>
-                <a href="">projects</a>
-                <a href="">contact me</a>
+                {/* <a href="">about me</a> */}
+                <a href="#projects">projects</a>
+                <a href="#contact">contact me</a>
             </div>
 
        </div>
